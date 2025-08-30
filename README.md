@@ -11,10 +11,10 @@ C++ 콘솔 환경에서 텍사스 홀덤의 족보 시스템을 결합하여 몬
 ## 🎮 게임 진행 방식
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/44a427ad-7ba6-450b-aed8-7ddde2d95d24" />
 
-# 일반 몬스터
+### 일반 몬스터
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/79c1e068-8f7c-44a6-9962-8fec72192c97" />
 
-# 보스(황금 고블린)
+### 보스(황금 고블린)
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/b4df4d63-acf3-4fa5-89d2-aa45272804bc" />
 
 
@@ -48,17 +48,16 @@ C++ 콘솔 환경에서 텍사스 홀덤의 족보 시스템을 결합하여 몬
 
 ## 플레이 
 
-# 일반 몬스터
+### 일반 몬스터
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/aebac705-b6bd-4373-8dcf-8d6c3a9e5f35" />
 
-# 보스(황금 고블린)
+### 보스(황금 고블린)
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/71b848c6-8c35-4835-a61c-0f83b666562d" />
 
-## 🛠️ 핵심 구현 내용 및 문제 해결
-문제 상황
+## 🛠️ 문제 상황
 초기 개발 단계에서, 5장의 카드가 스트레이트와 플러쉬 등 두 가지 이상의 족보를 동시에 만족시킬 경우, 우선순위가 낮은 족보로 잘못 판별되는 오류가 있었습니다.
 
-# 해결 방안
+## 해결 방안
 - 이를 해결하기 위해 각 족보에 int형 우선순위 값을 부여했습니다.
 - 5장의 카드를 검사하여 해당하는 모든 족보를 벡터에 추가한 뒤, 이 우선순위 값을 기준으로 내림차순 정렬하여 가장 앞에 있는(가장 높은 우선순위의) 족보를 최종 결과로 채택하는 알고리즘을 구현하여 문제를 해결했습니다.
 - 이를 통해 중복되는 어떠한 카드 조합에서도 예외 없이 가장 높은 우선순위를 가진 족보를 판별해내는 안정성과 신뢰성을 확보할 수 있었습니다. 
