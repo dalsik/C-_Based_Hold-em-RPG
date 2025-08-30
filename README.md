@@ -53,6 +53,7 @@ C++ 콘솔 환경에서 텍사스 홀덤의 족보 시스템을 결합하여 몬
 
 ### 보스(황금 고블린)
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/71b848c6-8c35-4835-a61c-0f83b666562d" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/3bbf1cd6-d287-43ad-a6ea-1bb8e3e14e4c" />
 
 ## 🛠️ 문제 상황
 초기 개발 단계에서, 5장의 카드가 스트레이트와 플러쉬 등 두 가지 이상의 족보를 동시에 만족시킬 경우, 우선순위가 낮은 족보로 잘못 판별되는 오류가 있었습니다.
