@@ -1,4 +1,4 @@
-# C-_Based_Hold-em-RPG
+# C++_Based_Hold-em-RPG
 C++을 활용한 콘솔 홀덤 게임 
 
 C++을 활용한 텍사스 홀덤 RPG
