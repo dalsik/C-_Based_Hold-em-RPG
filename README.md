@@ -9,13 +9,13 @@ C++ 콘솔 환경에서 텍사스 홀덤의 족보 시스템을 결합하여 몬
 <br>
 
 ## 🎮 게임 진행 방식
-<img width="1189" height="623" alt="Image" src="https://github.com/user-attachments/assets/44a427ad-7ba6-450b-aed8-7ddde2d95d24" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/44a427ad-7ba6-450b-aed8-7ddde2d95d24" />
 
 # 일반 몬스터
-<img width="1209" height="615" alt="Image" src="https://github.com/user-attachments/assets/79c1e068-8f7c-44a6-9962-8fec72192c97" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/79c1e068-8f7c-44a6-9962-8fec72192c97" />
 
 # 보스(황금 고블린)
-<img width="1187" height="620" alt="Image" src="https://github.com/user-attachments/assets/b4df4d63-acf3-4fa5-89d2-aa45272804bc" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/b4df4d63-acf3-4fa5-89d2-aa45272804bc" />
 
 
 - 전투 시작: 플레이어는 전체 카드 덱에서 무작위로 카드 2장을 받습니다.
@@ -49,10 +49,10 @@ C++ 콘솔 환경에서 텍사스 홀덤의 족보 시스템을 결합하여 몬
 ## 플레이 
 
 # 일반 몬스터
-<img width="1025" height="546" alt="Image" src="https://github.com/user-attachments/assets/aebac705-b6bd-4373-8dcf-8d6c3a9e5f35" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/aebac705-b6bd-4373-8dcf-8d6c3a9e5f35" />
 
 # 보스(황금 고블린)
-<img width="1011" height="534" alt="Image" src="https://github.com/user-attachments/assets/71b848c6-8c35-4835-a61c-0f83b666562d" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/71b848c6-8c35-4835-a61c-0f83b666562d" />
 
 ## 🛠️ 핵심 구현 내용 및 문제 해결
 문제 상황
